@@ -1,0 +1,316 @@
+body {
+    color: white;
+    text-align: center;
+    font-family: 'PT sans';
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+}
+
+#navbar {
+    margin-bottom: 0;
+    position: fixed;
+    background-color: #333;
+    width:100vw;
+}
+
+#showcase {
+    background-image: url("showcase.jpeg");
+    background-size: 100vh;
+    background-size: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 0;
+    padding: 0;
+}
+
+#music {
+    padding: 0;
+    margin: 0;
+}
+
+#music > h1 {
+    font-size: 45px;
+    padding-top: 40px;
+}
+
+#trial {
+    background-color: darkred;
+    width: 275px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+#trial:hover {
+    background-color: red;
+    width: 275px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+#more > a, #trial > a {
+    text-decoration: none;
+    color: white;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#movie {
+    background-color: white;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    border-collapse: collapse;
+}
+
+#movie > h1 {
+    font-size: 35px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+#more{
+    background-color: rgb(0, 58, 167);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 200px;
+    margin:auto;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+#more:hover{
+    background-color: rgb(58, 109, 206);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 200px;
+    margin:auto;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+#entertainment > h1 {
+    padding-top: 200px;
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: 35px;
+}
+
+#entertainment > p {
+    padding-left: 10%;
+    padding-right:10%;
+    padding-top: 30px;
+    padding-bottom: 200px;
+    font-size: 23px;
+}
+
+#entertainment {
+    background-image: url(section-bg.jpeg);
+    background-size: 100vh;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+}
+
+#gift {
+    background-color: white;
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+@media (min-width:750px) {
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: #111;
+    }
+
+    #showcase > h1 {
+        padding-top: 20%;
+        font-size: 70px;
+    }
+
+    #showcase > h3 {
+        font-size: 35px;
+    }
+
+    #showcase > p {
+        font-size: 23px;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-bottom: 380px;
+    }
+
+    #music > h3 {
+        font-size: 37px;
+    }
+
+    #music > p#para {
+        font-size: 23px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    #movie > p#parag {
+        font-size: 23px;
+        padding-left: 225px;
+        padding-right: 225px;
+    }
+
+    #cards {
+        float:left;
+        height: 33%;
+        width: 30%;
+        padding-left: 10%;
+    }
+
+    #gift > p#heading {
+        margin-left: 45%;
+        text-align: left;
+        font-size: 27px;
+    }
+
+    #gift > p, #gift > hr{
+        text-align: left;
+        margin-right: 7%;
+        margin-left: 45%;
+    }
+
+}
+
+@media (max-width:749px) {
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        visibility: collapse;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding:0;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: #111;
+    }
+
+    #fixit {
+        visibility: visible;
+        padding: 14px 16px;
+    }
+
+    #showcase > h1 {
+        padding-top: 150px;
+        font-size: 50px;
+    }
+
+    #showcase > h3 {
+        font-size: 25px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 120px;
+    }
+
+    #showcase > p {
+        visibility: hidden;
+    }
+
+    #music > h3 {
+        font-size: 33px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #music > p#para {
+        font-size: 23px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #music > p#single {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #movie > p#parag {
+        font-size: 23px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #cards {
+        height: 33%;
+        width: 300px;
+    }
+
+    #gift > p#heading {
+        margin-left: 40%;
+        text-align: left;
+        font-size: 27px;
+    }
+
+    #gift > p, #gift > hr{
+        text-align: center;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+}
